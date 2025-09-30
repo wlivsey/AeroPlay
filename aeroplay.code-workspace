@@ -1,0 +1,88 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "AeroPlay - Root"
+    },
+    {
+      "path": "src",
+      "name": "Source Code"
+    },
+    {
+      "path": "src/components",
+      "name": "Components"
+    },
+    {
+      "path": "src/services",
+      "name": "Services & Business Logic"
+    },
+    {
+      "path": "src/screens",
+      "name": "Screens"
+    },
+    {
+      "path": "__tests__",
+      "name": "Tests"
+    },
+    {
+      "path": "assets",
+      "name": "Assets"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/.expo": true,
+      "**/dist": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.expo": true,
+      "**/ios/build": true,
+      "**/android/build": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-typescript-tsd",
+      "msjsdiag.vscode-react-native",
+      "dsznajder.es7-react-js-snippets"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug iOS",
+        "type": "reactnative",
+        "request": "launch",
+        "platform": "ios"
+      },
+      {
+        "name": "Debug Android",
+        "type": "reactnative",
+        "request": "launch",
+        "platform": "android"
+      },
+      {
+        "name": "Run Tests",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["test"],
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+}

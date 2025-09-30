@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "claude-code.useNodeExecution": true
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}
