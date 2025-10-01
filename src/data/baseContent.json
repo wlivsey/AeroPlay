@@ -1,0 +1,243 @@
+{
+  "landmarks": {
+    "usa": [
+      {
+        "name": "Grand Canyon",
+        "lat": 36.1069,
+        "lon": -112.1129,
+        "type": "natural",
+        "description": "A massive canyon carved by the Colorado River",
+        "kidFacts": [
+          "It's 277 miles long and over a mile deep!",
+          "You can see rock layers that are 2 billion years old",
+          "It's bigger than the entire state of Rhode Island"
+        ]
+      },
+      {
+        "name": "Yellowstone",
+        "lat": 44.4280,
+        "lon": -110.5885,
+        "type": "natural",
+        "description": "America's first national park with geysers and wildlife",
+        "kidFacts": [
+          "Old Faithful geyser erupts every 90 minutes",
+          "Home to grizzly bears, wolves, and bison",
+          "Sits on top of a supervolcano"
+        ]
+      },
+      {
+        "name": "Mount Rushmore",
+        "lat": 43.8791,
+        "lon": -103.4591,
+        "type": "structure",
+        "description": "Four presidents carved into a mountain",
+        "kidFacts": [
+          "Each face is 60 feet tall",
+          "Took 14 years to carve",
+          "The noses are 20 feet long"
+        ]
+      },
+      {
+        "name": "Statue of Liberty",
+        "lat": 40.6892,
+        "lon": -74.0445,
+        "type": "structure",
+        "description": "Symbol of freedom in New York Harbor",
+        "kidFacts": [
+          "A gift from France in 1886",
+          "Her torch is covered in gold leaf",
+          "You can climb 354 stairs to the crown"
+        ]
+      },
+      {
+        "name": "Golden Gate Bridge",
+        "lat": 37.8199,
+        "lon": -122.4783,
+        "type": "structure",
+        "description": "Famous orange bridge in San Francisco",
+        "kidFacts": [
+          "It's painted International Orange color",
+          "Can sway 27 feet in strong winds",
+          "Took 4 years to build"
+        ]
+      },
+      {
+        "name": "Niagara Falls",
+        "lat": 43.0962,
+        "lon": -79.0377,
+        "type": "natural",
+        "description": "Massive waterfalls on US-Canada border",
+        "kidFacts": [
+          "3,160 tons of water flow over every second",
+          "You can go behind the falls in a tunnel",
+          "Makes its own permanent rainbow on sunny days"
+        ]
+      },
+      {
+        "name": "Great Salt Lake",
+        "lat": 41.1000,
+        "lon": -112.5000,
+        "type": "natural",
+        "description": "America's Dead Sea - super salty lake",
+        "kidFacts": [
+          "8 times saltier than the ocean",
+          "You can float without trying",
+          "Pink from tiny shrimp that live in it"
+        ]
+      },
+      {
+        "name": "Hoover Dam",
+        "lat": 36.0156,
+        "lon": -114.7377,
+        "type": "structure",
+        "description": "Massive concrete dam creating Lake Mead",
+        "kidFacts": [
+          "Taller than a 60-story building",
+          "Contains enough concrete to build a road from New York to San Francisco",
+          "Created America's largest reservoir"
+        ]
+      },
+      {
+        "name": "Chicago Skyline",
+        "lat": 41.8781,
+        "lon": -87.6298,
+        "type": "city",
+        "description": "The Windy City's famous buildings",
+        "kidFacts": [
+          "Willis Tower was world's tallest for 25 years",
+          "Has more moveable bridges than any other city",
+          "The river flows backward - they reversed it!"
+        ]
+      },
+      {
+        "name": "Mississippi River",
+        "lat": 38.0000,
+        "lon": -90.0000,
+        "type": "water",
+        "description": "America's mighty river",
+        "kidFacts": [
+          "4th longest river in the world",
+          "A raindrop takes 90 days to travel its length",
+          "Mark Twain wrote stories about it"
+        ]
+      }
+    ]
+  },
+  "aviationFacts": [
+    "Airplanes are struck by lightning about once a year, but they're designed to handle it safely",
+    "The white trails behind planes are called contrails - they're made of water vapor",
+    "A Boeing 747 has 6 million parts",
+    "The Wright Brothers' first flight was shorter than a Boeing 747's wingspan",
+    "Black boxes are actually orange to make them easier to find",
+    "Pilots and co-pilots eat different meals in case one gets food poisoning",
+    "The Antonov An-225 is the largest plane ever built - as heavy as 100 elephants",
+    "Most planes can fly with only one engine",
+    "The Boeing factory in Seattle is the largest building in the world by volume",
+    "Air travel is the safest form of transportation"
+  ],
+  "cloudTypes": {
+    "basic": [
+      {
+        "name": "Cumulus",
+        "appearance": "Fluffy cotton balls",
+        "weather": "Fair weather"
+      },
+      {
+        "name": "Stratus",
+        "appearance": "Gray blanket",
+        "weather": "Overcast, maybe drizzle"
+      },
+      {
+        "name": "Cirrus",
+        "appearance": "Wispy horse tails",
+        "weather": "Weather change coming"
+      },
+      {
+        "name": "Cumulonimbus",
+        "appearance": "Tall anvil shape",
+        "weather": "Thunderstorms"
+      }
+    ]
+  },
+  "games": {
+    "spotterChallenges": [
+      "Find 3 different types of clouds",
+      "Spot a river or lake",
+      "See a mountain or hill",
+      "Find a city or town",
+      "Spot another airplane",
+      "See farmland patterns",
+      "Find a road or highway",
+      "Spot a coastline",
+      "See snow on mountains",
+      "Find a winding river"
+    ],
+    "trivia": [
+      {
+        "question": "What makes airplane windows round?",
+        "answer": "Square windows can crack from pressure",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Why are airplane tires so strong?",
+        "answer": "They're filled with nitrogen and can handle 200mph landings",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How high do commercial planes fly?",
+        "answer": "Usually between 30,000 and 42,000 feet",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "id": "first_flight",
+      "name": "First Flight",
+      "description": "Complete your first AeroPlay flight",
+      "icon": "✈️"
+    },
+    {
+      "id": "landmark_spotter",
+      "name": "Landmark Spotter",
+      "description": "Spot 10 landmarks in one flight",
+      "icon": "🗺️"
+    },
+    {
+      "id": "cloud_expert",
+      "name": "Cloud Expert",
+      "description": "Identify 5 different cloud types",
+      "icon": "☁️"
+    },
+    {
+      "id": "game_master",
+      "name": "Game Master",
+      "description": "Score 100 points in any game",
+      "icon": "🎮"
+    },
+    {
+      "id": "coast_to_coast",
+      "name": "Coast to Coast",
+      "description": "Complete a cross-country flight",
+      "icon": "🌊"
+    },
+    {
+      "id": "night_owl",
+      "name": "Night Owl",
+      "description": "Complete a night flight",
+      "icon": "🌙"
+    },
+    {
+      "id": "frequent_flyer",
+      "name": "Frequent Flyer",
+      "description": "Complete 5 flights with AeroPlay",
+      "icon": "🏆"
+    },
+    {
+      "id": "weather_watcher",
+      "name": "Weather Watcher",
+      "description": "Correctly predict weather from clouds",
+      "icon": "🌤️"
+    }
+  ]
+}

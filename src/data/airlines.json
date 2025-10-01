@@ -1,0 +1,144 @@
+{
+  "airlines": [
+    {
+      "code": "UA",
+      "name": "United Airlines",
+      "country": "USA",
+      "hub": "Chicago, Denver, Houston",
+      "fleet": 854,
+      "founded": 1926,
+      "funFacts": [
+        "One of the oldest airlines in the world",
+        "Flies to more than 350 destinations",
+        "Has the most international destinations of any US airline"
+      ],
+      "liveryColors": ["blue", "white"]
+    },
+    {
+      "code": "AA",
+      "name": "American Airlines",
+      "country": "USA",
+      "hub": "Dallas, Charlotte, Chicago",
+      "fleet": 956,
+      "founded": 1930,
+      "funFacts": [
+        "World's largest airline by fleet size",
+        "Flies to 350+ destinations in 50+ countries",
+        "Created the first frequent flyer program"
+      ],
+      "liveryColors": ["red", "white", "blue"]
+    },
+    {
+      "code": "DL",
+      "name": "Delta Air Lines",
+      "country": "USA",
+      "hub": "Atlanta, Detroit, Minneapolis",
+      "fleet": 828,
+      "founded": 1925,
+      "funFacts": [
+        "Started as a crop dusting company",
+        "Atlanta hub is world's busiest airport",
+        "Oldest US airline still operating"
+      ],
+      "liveryColors": ["red", "blue", "white"]
+    },
+    {
+      "code": "WN",
+      "name": "Southwest Airlines",
+      "country": "USA",
+      "hub": "Dallas, Denver, Chicago",
+      "fleet": 737,
+      "founded": 1967,
+      "funFacts": [
+        "Only flies Boeing 737s",
+        "No assigned seats",
+        "Started with just 3 planes"
+      ],
+      "liveryColors": ["blue", "red", "yellow"]
+    },
+    {
+      "code": "BA",
+      "name": "British Airways",
+      "country": "UK",
+      "hub": "London Heathrow",
+      "fleet": 254,
+      "founded": 1974,
+      "funFacts": [
+        "UK's flag carrier airline",
+        "Operated Concorde supersonic jets",
+        "Flies to more countries than any other airline"
+      ],
+      "liveryColors": ["blue", "red", "white"]
+    },
+    {
+      "code": "AF",
+      "name": "Air France",
+      "country": "France",
+      "hub": "Paris Charles de Gaulle",
+      "fleet": 234,
+      "founded": 1933,
+      "funFacts": [
+        "France's flag carrier",
+        "Also operated Concorde",
+        "Known for gourmet French cuisine onboard"
+      ],
+      "liveryColors": ["blue", "white", "red"]
+    },
+    {
+      "code": "LH",
+      "name": "Lufthansa",
+      "country": "Germany",
+      "hub": "Frankfurt, Munich",
+      "fleet": 279,
+      "founded": 1953,
+      "funFacts": [
+        "Largest airline in Europe by fleet",
+        "Name means 'air' + 'Hansa' (medieval trade guild)",
+        "Trains more pilots than any other airline"
+      ],
+      "liveryColors": ["blue", "yellow", "white"]
+    },
+    {
+      "code": "EK",
+      "name": "Emirates",
+      "country": "UAE",
+      "hub": "Dubai",
+      "fleet": 254,
+      "founded": 1985,
+      "funFacts": [
+        "Largest operator of A380s",
+        "Has showers on some planes",
+        "Dubai airport built specifically for Emirates"
+      ],
+      "liveryColors": ["red", "white", "gold"]
+    },
+    {
+      "code": "SQ",
+      "name": "Singapore Airlines",
+      "country": "Singapore",
+      "hub": "Singapore Changi",
+      "fleet": 185,
+      "founded": 1947,
+      "funFacts": [
+        "Consistently rated best airline",
+        "First to fly A380",
+        "Has world's longest flight route"
+      ],
+      "liveryColors": ["blue", "gold", "white"]
+    },
+    {
+      "code": "QF",
+      "name": "Qantas",
+      "country": "Australia",
+      "hub": "Sydney, Melbourne",
+      "fleet": 126,
+      "founded": 1920,
+      "funFacts": [
+        "World's third oldest airline",
+        "Never had a fatal jet crash",
+        "Has a kangaroo logo"
+      ],
+      "liveryColors": ["red", "white"]
+    }
+  ]
+}

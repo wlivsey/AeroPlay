@@ -1,0 +1,130 @@
+{
+  "aircraft": [
+    {
+      "model": "B737",
+      "manufacturer": "Boeing",
+      "name": "Boeing 737",
+      "cruiseSpeed": 450,
+      "maxAltitude": 41000,
+      "range": 3500,
+      "seats": "126-220",
+      "funFacts": [
+        "Most popular commercial jet ever made",
+        "One takes off or lands every 2 seconds somewhere in the world",
+        "Has been flying since 1967"
+      ]
+    },
+    {
+      "model": "A320",
+      "manufacturer": "Airbus",
+      "name": "Airbus A320",
+      "cruiseSpeed": 447,
+      "maxAltitude": 39000,
+      "range": 3300,
+      "seats": "140-180",
+      "funFacts": [
+        "First commercial jet with fly-by-wire controls",
+        "Uses joysticks instead of traditional yokes",
+        "Most popular Airbus aircraft"
+      ]
+    },
+    {
+      "model": "B777",
+      "manufacturer": "Boeing",
+      "name": "Boeing 777",
+      "cruiseSpeed": 490,
+      "maxAltitude": 43100,
+      "range": 8555,
+      "seats": "314-396",
+      "funFacts": [
+        "Largest twin-engine jet in the world",
+        "Can fly halfway around the world nonstop",
+        "First Boeing designed entirely on computers"
+      ]
+    },
+    {
+      "model": "A350",
+      "manufacturer": "Airbus",
+      "name": "Airbus A350",
+      "cruiseSpeed": 488,
+      "maxAltitude": 43000,
+      "range": 8700,
+      "seats": "300-350",
+      "funFacts": [
+        "Made with 53% composite materials",
+        "Wings can bend up to 5 meters",
+        "Quietest wide-body aircraft"
+      ]
+    },
+    {
+      "model": "B787",
+      "manufacturer": "Boeing",
+      "name": "Boeing 787 Dreamliner",
+      "cruiseSpeed": 487,
+      "maxAltitude": 43000,
+      "range": 7635,
+      "seats": "242-330",
+      "funFacts": [
+        "Windows are 65% larger than other jets",
+        "No window shades - uses electronic dimming",
+        "Cabin pressure feels like 6,000ft instead of 8,000ft"
+      ]
+    },
+    {
+      "model": "A380",
+      "manufacturer": "Airbus",
+      "name": "Airbus A380",
+      "cruiseSpeed": 490,
+      "maxAltitude": 43000,
+      "range": 8000,
+      "seats": "555-853",
+      "funFacts": [
+        "Largest passenger aircraft in the world",
+        "Has two full decks",
+        "Wingspan is almost as long as a football field"
+      ]
+    },
+    {
+      "model": "B747",
+      "manufacturer": "Boeing",
+      "name": "Boeing 747",
+      "cruiseSpeed": 493,
+      "maxAltitude": 45100,
+      "range": 7730,
+      "seats": "416-524",
+      "funFacts": [
+        "Known as the 'Queen of the Skies'",
+        "Has a distinctive hump for the upper deck",
+        "Was the largest passenger jet for 37 years"
+      ]
+    },
+    {
+      "model": "E190",
+      "manufacturer": "Embraer",
+      "name": "Embraer E190",
+      "cruiseSpeed": 430,
+      "maxAltitude": 41000,
+      "range": 2400,
+      "seats": "96-114",
+      "funFacts": [
+        "Popular regional jet",
+        "No middle seats - 2x2 configuration",
+        "Very quiet for its size"
+      ]
+    },
+    {
+      "model": "CRJ9",
+      "manufacturer": "Bombardier",
+      "name": "CRJ-900",
+      "cruiseSpeed": 420,
+      "maxAltitude": 41000,
+      "range": 1550,
+      "seats": "76-90",
+      "funFacts": [
+        "Common on shorter routes",
+        "Can use smaller airports",
+        "Very fuel efficient"
+      ]
+    }
+  ]
+}
