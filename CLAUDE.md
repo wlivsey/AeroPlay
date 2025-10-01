@@ -144,7 +144,7 @@ interface RouteProgress {
 ### 2.3 File Structure
 
 ```
-skystory/
+aeroplay/
 ├── android/
 ├── ios/
 ├── src/
@@ -377,7 +377,7 @@ class ContentFetcher {
   async fetchRouteContent(origin: string, dest: string): Promise<RoutePack> {
     // Single API call to our CDN
     const routeId = `${origin}-${dest}`;
-    const pack = await fetch(`https://cdn.skystory.app/routes/${routeId}.pack`);
+    const pack = await fetch(`https://cdn.aeroplay.app/routes/${routeId}.pack`);
 
     // Optional Wikipedia enrichment (max 500KB)
     const landmarks = await this.fetchLandmarkSummaries(pack.landmarkIds);
@@ -489,8 +489,8 @@ class ContentFetcher {
 ### 7.1 Project Setup
 
 ```bash
-npx create-expo-app skystory --template
-cd skystory
+npx create-expo-app aeroplay --template
+cd aeroplay
 npm install --save-dev typescript @types/react @types/react-native
 npx expo install expo-speech expo-sqlite expo-notifications
 ```
@@ -858,7 +858,7 @@ export default function App() {
 
 ```json
 {
-  "name": "skystory",
+  "name": "aeroplay",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -1079,4 +1079,4 @@ class SunPosition {
 
 ---
 
-This comprehensive plan provides the foundation for building SkyStory as an enterprise-grade application that families will depend on for every flight. The modular architecture and Crystal-based development approach will enable rapid iteration while maintaining code quality.
+This comprehensive plan provides the foundation for building AeroPlay as an enterprise-grade application that families will depend on for every flight. The modular architecture and Crystal-based development approach will enable rapid iteration while maintaining code quality.
